@@ -5,7 +5,7 @@ from flask import request
 
 moje_imie = "Tomasz"
 msg = "Hello World!"
-
+moje_nazwisko = "Wyrwiak"
 
 @app.route('/')
 def index():
@@ -19,3 +19,5 @@ def index():
 @app.route('/outputs')
 def supported_output():
     return ", ".join(SUPPORTED)
+
+
