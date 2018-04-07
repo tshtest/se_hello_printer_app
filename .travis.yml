@@ -10,3 +10,7 @@ script:
   - make test
   - make docker_build
   - make docker_push
+deploy:
+  provider: heroku
+  app: frozen-shelf-16863
+  api_key: $(HEROKU_API-KEY)
