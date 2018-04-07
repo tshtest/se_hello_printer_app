@@ -12,4 +12,4 @@ script:
 deploy:
   provider: heroku
   app: frozen-shelf-16863
-  api_key: $(HEROKU_API-KEY)
+  api_key: $(HEROKU_API_KEY)
