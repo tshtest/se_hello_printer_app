@@ -7,6 +7,7 @@ moje_imie = "Tomasz"
 msg = "Hello World!"
 moje_nazwisko = "Wyrwiak"
 
+
 @app.route('/')
 def index():
     output = request.args.get('output')
@@ -19,5 +20,3 @@ def index():
 @app.route('/outputs')
 def supported_output():
     return ", ".join(SUPPORTED)
-
-
