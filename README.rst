@@ -98,6 +98,9 @@ badge rst z travisa
     :target: https://app.statuscake.com/button/index.php
 
 
+.. image:: https://app.statuscake.com/button/index.php?Track=6CslSOnLXw&Days=1&Design=1
+    :target: https://www.statuscake.com/se_hello_printer_app
+
 
 
 
