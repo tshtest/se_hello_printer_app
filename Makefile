@@ -10,6 +10,12 @@ lint:
 test:
 	PYTHONPATH=. py.test
 	PYTHONPATH=. py.test  --verbose -s
+test_cov:
+	PYTHONPATH=. py.test -s --verbose --cov=.
+
+test_xunit:
+	PYTHONPATH=. py.test  --verbose -s
+
 run:
 	python main.py
 
@@ -30,3 +36,6 @@ docker_push: docker_build
 	docker tag hello-world-printer $(TAG); \
 	docker push $(TAG); \
 	docker logout;
+
+
+
