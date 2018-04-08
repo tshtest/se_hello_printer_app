@@ -88,7 +88,10 @@ Dodano monitoring na Statuscake
 tomasz.wyrwiak@gmail.com
 pass:tomilisander1
 
-https://travis-ci.org/tshtest/se_hello_printer_app.svg?branch=master
+badge rst z travisa
+
+.. image:: https://travis-ci.org/tshtest/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/tshtest/se_hello_printer_app
 
 
 
