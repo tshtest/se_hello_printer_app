@@ -93,5 +93,23 @@ badge rst z travisa
 .. image:: https://travis-ci.org/tshtest/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/tshtest/se_hello_printer_app
 
+.. image:: https://www.statuscake.com" title="Website Uptime Monitoring"
+
+    :target: https://app.statuscake.com/button/index.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
